@@ -5,7 +5,7 @@ import org.omg.CORBA.MARSHAL;
 /**
  * Created by MaRaT on 15.03.14.
  */
-public class MatrixArrayImpl {
+public class MatrixArrayImpl implements Matrix {
     //поле класса
     private int[][] matrix;
 
